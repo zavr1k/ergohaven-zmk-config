@@ -9,13 +9,13 @@
         compatible = "zmk,combos";
 
         cmd_ru {
-            bindings = <&layer_ru>;
+            bindings = <&to 1>;
             key-positions = <15 16>;
             layers = <0>;
         };
 
         cmb_en {
-            bindings = <&layer_en>;
+            bindings = <&to 0>;
             key-positions = <15 16>;
             layers = <1>;
         };
