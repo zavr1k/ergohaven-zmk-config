@@ -10,12 +10,27 @@
 
         cmd_esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <1 2>;
+            key-positions = <13 14>;
         };
 
-        cmd_lg_tog {
-            bindings = <&lg_tog>;
-            key-positions = <14 15>;
+        semi {
+            bindings = <&kp SEMI>;
+            key-positions = <7 8>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <19 20>;
+        };
+
+        sqt {
+            bindings = <&kp SQT>;
+            key-positions = <8 9>;
+        };
+
+        dqt {
+            bindings = <&kp DQT>;
+            key-positions = <20 21>;
         };
     };
 
@@ -99,8 +114,8 @@
         en {
             bindings = <
 &kp TAB           &kp Q  &kp W  &kp E  &kp R             &kp T                          &kp Y  &kp U          &kp I      &kp O    &kp P     &kp ESCAPE
-&kp LEFT_CONTROL  &kp A  &kp S  &kp D  &kp F             &kp G                          &kp H  &kp J          &kp K      &kp L    &kp SEMI  &kp ENTER
-&kp LEFT_SHIFT    &kp Z  &kp X  &kp C  &kp V             &kp B  &none        &none      &kp N  &kp M          &kp COMMA  &kp DOT  &kp SQT   &kp RSHFT
+&kp LEFT_CONTROL  &kp A  &kp S  &kp D  &kp F             &kp G                          &kp H  &kp J          &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT    &kp Z  &kp X  &kp C  &kp V             &kp B  &none        &none      &kp N  &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
                                        &kp LEFT_COMMAND  &mo 2  &kp ENTER    &lg_space  &mo 3  &kp BACKSPACE
             >;
 
@@ -122,10 +137,10 @@
 
         sym_en {
             bindings = <
-&trans  &kp GRAVE  &kp AT_SIGN  &trans     &trans    &trans                    &kp QMARK  &kp RPAR  &kp RIGHT_BRACKET  &kp RIGHT_BRACE   &kp EQUAL  &trans
-&trans  &kp BSLH   &kp LPAR     &kp MINUS  &trans    &trans                    &kp PRCNT  &kp LPAR  &kp LEFT_BRACKET   &kp LEFT_BRACE    &kp SEMI   &trans
-&trans  &kp HASH   &kp STAR     &kp COLON  &kp FSLH  &trans  &trans    &trans  &kp EXCL   &kp PIPE  &kp LESS_THAN      &kp GREATER_THAN  &trans     &trans
-                                           &trans    &mo 4   &trans    &trans  &trans     &trans
+&kp GRAVE  &kp EXCL  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PRCNT                       &kp CARET  &kp AMPERSAND     &kp ASTRK          &kp LPAR          &kp RPAR         &kp NON_US_BACKSLASH
+&kp TILDE  &kp N1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp UNDER  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp PIPE
+&trans     &kp N6    &kp N7        &kp N8        &kp N9        &kp N0        &trans    &trans  &kp EQUAL  &kp PLUS          &kp LESS_THAN      &kp GREATER_THAN  &kp SLASH        &kp QMARK
+                                                 &trans        &mo 4         &trans    &trans  &trans     &trans
             >;
 
             display-name = "Symbols";
