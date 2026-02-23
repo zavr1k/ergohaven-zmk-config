@@ -137,7 +137,7 @@
 
         sym_en {
             bindings = <
-&kp GRAVE  &kp EXCL  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PRCNT                       &kp CARET  &kp AMPERSAND     &kp ASTRK          &kp LPAR          &kp RPAR         &kp NON_US_BACKSLASH
+&kp GRAVE  &kp EXCL  &kp AT_SIGN   &kp POUND     &kp DOLLAR    &kp PRCNT                       &kp CARET  &kp AMPERSAND     &kp ASTRK          &kp LPAR          &kp RPAR         &kp NON_US_BACKSLASH
 &kp TILDE  &kp N1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp UNDER  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp PIPE
 &trans     &kp N6    &kp N7        &kp N8        &kp N9        &kp N0        &trans    &trans  &kp EQUAL  &kp PLUS          &kp LESS_THAN      &kp GREATER_THAN  &kp SLASH        &kp QMARK
                                                  &trans        &mo 4         &trans    &trans  &trans     &trans
